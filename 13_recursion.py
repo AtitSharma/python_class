@@ -13,7 +13,7 @@ def expo(num,power):
     if power==0:
         return 1
     return num * expo(num,power-1)
-print(expo(7,3))
+print(expo(2,2))
 
 
     
